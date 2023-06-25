@@ -16,17 +16,17 @@ It can be used standalone or with [CCapture.js](https://github.com/spite/ccaptur
 
 The server is now running.
 
-To see it in work, go to "http://localhost:8080/test.html". You should see some frames rendered, then a link will
+To see it in work, go to "http://localhost:8001/test.html". You should see some frames rendered, then a link will
 be provided to download the video. Or you can get the video in the `output` folder. There's a three.js sample in
-"http://localhost:8080/test2.html".
+"http://localhost:8001/test2.html".
 
 ## Use it in your own code
 
 In whatever JavaScript program you want to capture from
 
 ```
-<script src="http://localhost:8080/ffmpegserver/ffmpegserver.min.js"></script>
-<script src="http://localhost:8080/3rdparty/CCapture.min.js"></script>
+<script src="http://localhost:8001/ffmpegserver/ffmpegserver.min.js"></script>
+<script src="http://localhost:8001/3rdparty/CCapture.min.js"></script>
 ```
 
 To create a CCapture object, write:
@@ -113,8 +113,8 @@ You have 2 options to serve your files for your canvas app
     Maybe you have your files on `mysite.com` or wherever. As long as the 2 scripts
     above are included from localhost like this
 
-        <script src="http://localhost:8080/ffmpegserver/CCapture.js"></script>
-        <script src="http://localhost:8080/ffmpegserver/ffmpegserver.js"></script>
+        <script src="http://localhost:8001/ffmpegserver/CCapture.js"></script>
+        <script src="http://localhost:8001/ffmpegserver/ffmpegserver.js"></script>
 
     It should work. Just those 2 scripts will be served by ffmpegserver, the rest
     by whatever server you normally use.
