@@ -31,7 +31,7 @@
 define([
     './virtualsocket',
   ], function(
-     VirtualSocket) {
+    VirtualSocket) {
   'use strict';
 
   function FrameEncoder(options) {

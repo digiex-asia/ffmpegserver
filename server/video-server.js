@@ -121,6 +121,7 @@ var VideoServer = function(options, startedCallback) {
     tryToStartServer();
   };
 
+  console.log("options", options);
   var server = options.httpServerFactory ? options.httpServerFactory(app) : http.createServer(app);
   var socketServer;
 
